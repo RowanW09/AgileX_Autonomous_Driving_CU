@@ -92,52 +92,52 @@ roslaunch realsense2_camera rs_camera.launch
 ```
 sudo apt-get install ros-$ROS_DISTRO-realsense2-camera
 ```
-## Install Repository
+#### Install Repository
 ```
 git clone https://github.com/IntelRealSense/realsense-ros.git
 ```
-## Installing Packages
+#### Installing Packages
 Register the servers public key
 ```
 sudo mkdir -p /etc/apt/keyrings
 curl -sSf https://librealsense.intel.com/Debian/librealsense.pgp | sudo tee /etc/apt/keyrings/librealsense.pgp > /dev/null
 ```
-## Make sure apt HTTPS support is installed
+#### Make sure apt HTTPS support is installed
 ```
 sudo apt-get install apt-transport-https
 ```
-## Add the server to the list of repositories
+#### Add the server to the list of repositories
 ```
 echo "deb [signed-by=/etc/apt/keyrings/librealsense.pgp] https://librealsense.intel.com/Debian/apt-repo `lsb_release -cs` main" | \
 sudo tee /etc/apt/sources.list.d/librealsense.list
 sudo apt-get update
 ```
-## Install the libraries
+#### Install the libraries
 ```
 sudo apt-get install librealsense2-dkms
 sudo apt-get install librealsense2-utils
 ```
 The above two lines will deploy librealsense2 udev rules, build and activate kernel modules, runtime library and executable demos and tools.
 
-## Optionally install the developer and debug packages
+#### Optionally install the developer and debug packages
 ```
 sudo apt-get install librealsense2-dev
 sudo apt-get install librealsense2-dbg
 ```
 With dev package installed, you can compile an application with librealsense using g++ -std=c++11 filename.cpp -lrealsense2 or an IDE of your choice.
-## Reconnect the Intel RealSense depth camera and run:
+#### Reconnect the Intel RealSense depth camera and run:
 ```
 realsense-viewer
 ```
 to verify the installation.
 
-## Verify that the kernel is updated
+#### Verify that the kernel is updated
 ```
 modinfo uvcvideo | grep "version:"
 ```
 should include realsense string
 
-### Clone latest RealSense ROS
+##### Clone latest RealSense ROS
 ```
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
