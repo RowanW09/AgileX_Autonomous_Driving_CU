@@ -78,7 +78,25 @@ $ roslaunch-deps -w fileName.launch
 $ roslaunch pakcage_name fileName.launch
 ```
 
+## ROS Launch cmd
+RoboSense LiDAR
+```
+roslaunch rslidar_sdk start/launch
+```
+RealSense Camera
+```
+roslaunch realsense2_camera rs_camera.launch
+```
 
+## Install RealSenseCamera
+```
+sudo apt-get install ros-$ROS_DISTRO-realsense2-camera
+```
+### Clone latest RealSense ROS
+```
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
 
 
 
