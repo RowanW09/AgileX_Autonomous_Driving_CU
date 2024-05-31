@@ -92,6 +92,10 @@ roslaunch realsense2_camera rs_camera.launch
 ```
 sudo apt-get install ros-$ROS_DISTRO-realsense2-camera
 ```
+## Install Repository
+```
+git clone https://github.com/IntelRealSense/realsense-ros.git
+```
 ### Clone latest RealSense ROS
 ```
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
