@@ -17,6 +17,19 @@ Using AgileX Robotics' Scout 2.0 and RoboSense LiDAR for autonomous driving
 - ROS Melodic
 - Autoware
 
+### Manual Drive
+only run this once after system startup
+```
+rosrun scout_bringup bringup_can2usb.bash
+```
+```
+roslaunch scout_bringup scout_robot_base.launch
+```
+Open a new terminal (Remember to reduce the speed!)
+```
+roslaunch scout_bringup scout_teleop_keyboard.launch
+```
+
 #### Setting Up Autoware
 ##### System Dependencies for ubuntu 18.04 and ROS Melodic
 ```
@@ -96,11 +109,21 @@ sudo apt-get install ros-$ROS_DISTRO-realsense2-camera
 ```
 git clone https://github.com/IntelRealSense/realsense-ros.git
 ```
+#### Add Libraries
+```
+sudo apt-get install librealsense2-dkms
+sudo apt-get install librealsense2-utils
+```
 ##### Clone latest RealSense ROS
 ```
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
+#### Run Camera Viewer
+```
+realsense-viewer
+```
+
 
 
 
