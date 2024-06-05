@@ -13,8 +13,8 @@ Using AgileX Robotics' Scout 2.0 and RoboSense LiDAR for autonomous driving
 - Robosense LiDAR
 
 ### Software
-- Ubuntu 18.04
-- ROS Melodic
+- Ubuntu 20.04
+- ROS2 Galactic
 - Autoware
 
 ### Manual Drive
