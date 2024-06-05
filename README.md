@@ -9,7 +9,7 @@ Using AgileX Robotics' Scout 2.0 and RoboSense LiDAR for autonomous driving
 ### Hardware
 - AgileX Scout 2.0
 - Auto Kit
-- Nvidia Jetson Xavier NX
+- Intel NUC
 - Robosense LiDAR
 
 ### Software
