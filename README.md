@@ -47,20 +47,7 @@ $ colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 
 #### Setting Up RoboSense LiDAR
 ```
-https://github.com/RoboSense-LiDAR/rs_driver.git
+https://github.com/RoboSense-LiDAR/rslidar_sdk
 ```
 
-#### Make catkin Workspace
-```
-$ mkdir ros2_ws
-$ cd ~/catkin_ws
-$ catkin_make
-$ source devel/setup.bash
-```
-
-
-
-
-
-
-
+###
