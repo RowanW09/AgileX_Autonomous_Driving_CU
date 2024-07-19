@@ -27,6 +27,7 @@ Install Guide: https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debian
 ## Scout 2.0
 ### Scout SDK
 Install: https://github.com/agilexrobotics/scout_ros2
+
 Launch:
 ```
 ros2 launch scout_base scout_base.launch.py
