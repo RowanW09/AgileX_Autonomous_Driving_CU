@@ -63,10 +63,6 @@ ros2 launch scout_base scout_base.launch.py
 ```
 ### Scout Description
 
-Install:
-```
-
-```
 Launch:
 ```
 ros2 launch scout_description scout_base_description.launch.py
