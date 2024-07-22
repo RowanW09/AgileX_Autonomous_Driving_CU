@@ -7,6 +7,7 @@ Using AgileX Robotics' Scout 2.0 and RoboSense LiDAR for autonomous driving
 - Use LiDAR and other sensors to map and navigate indoors and outdoors
 
 ![screenshot](scout2.0.jpg)
+<img src="scout2.0.jpg" width="100">
 
 ## Hardware
 ### Scout 2.0:
