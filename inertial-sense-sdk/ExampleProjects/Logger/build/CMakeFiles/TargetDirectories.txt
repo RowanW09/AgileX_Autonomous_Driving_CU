@@ -1,0 +1,3 @@
+/home/orin/inertial-sense-sdk/ExampleProjects/Logger/build/CMakeFiles/ISLoggerExample.dir
+/home/orin/inertial-sense-sdk/ExampleProjects/Logger/build/CMakeFiles/edit_cache.dir
+/home/orin/inertial-sense-sdk/ExampleProjects/Logger/build/CMakeFiles/rebuild_cache.dir

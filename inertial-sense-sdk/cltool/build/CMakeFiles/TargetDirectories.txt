@@ -1,0 +1,3 @@
+/home/orin/inertial-sense-sdk/cltool/build/CMakeFiles/cltool.dir
+/home/orin/inertial-sense-sdk/cltool/build/CMakeFiles/edit_cache.dir
+/home/orin/inertial-sense-sdk/cltool/build/CMakeFiles/rebuild_cache.dir

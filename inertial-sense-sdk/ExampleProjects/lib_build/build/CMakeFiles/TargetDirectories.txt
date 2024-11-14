@@ -1,0 +1,2 @@
+/home/orin/inertial-sense-sdk/ExampleProjects/lib_build/build/CMakeFiles/edit_cache.dir
+/home/orin/inertial-sense-sdk/ExampleProjects/lib_build/build/CMakeFiles/rebuild_cache.dir
