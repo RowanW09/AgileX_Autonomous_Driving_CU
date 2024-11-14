@@ -1,0 +1,9 @@
+/home/orin/is_ws/build/test/CMakeFiles/uninstall.dir
+/home/orin/is_ws/build/test/CMakeFiles/test_uninstall.dir
+/home/orin/is_ws/build/test/CMakeFiles/test.dir
+/home/orin/is_ws/build/test/CMakeFiles/edit_cache.dir
+/home/orin/is_ws/build/test/CMakeFiles/rebuild_cache.dir
+/home/orin/is_ws/build/test/CMakeFiles/list_install_components.dir
+/home/orin/is_ws/build/test/CMakeFiles/install.dir
+/home/orin/is_ws/build/test/CMakeFiles/install/local.dir
+/home/orin/is_ws/build/test/CMakeFiles/install/strip.dir

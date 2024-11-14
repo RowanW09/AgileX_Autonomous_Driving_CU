@@ -1,0 +1,169 @@
+[0.023s] Invoking command in '/home/orin/is_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg /usr/bin/cmake /home/orin/is_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/orin/is_ws/install/cpp_pubsub
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.216s] -- The CXX compiler identification is GNU 11.4.0
+[0.235s] -- Detecting C compiler ABI info
+[0.361s] -- Detecting C compiler ABI info - done
+[0.385s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.386s] -- Detecting C compile features
+[0.388s] -- Detecting C compile features - done
+[0.398s] -- Detecting CXX compiler ABI info
+[0.528s] -- Detecting CXX compiler ABI info - done
+[0.554s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.555s] -- Detecting CXX compile features
+[0.556s] -- Detecting CXX compile features - done
+[0.564s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.854s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.034s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.100s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.106s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.117s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.211s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.215s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.242s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.253s] -- Looking for pthread.h
+[1.377s] -- Looking for pthread.h - found
+[1.377s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.515s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.518s] -- Found Threads: TRUE  
+[1.630s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.670s] [0mlinks[0m
+[1.672s] [0minstall[0m
+[1.672s] [0mbuild testing[0m
+[1.674s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.803s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.803s] -- Configured cppcheck include dirs: /home/orin/is_ws/src/cpp_pubsub/cpp_pubsub;/home/orin/is_ws/src/cpp_pubsub/PUBLIC
+[1.804s] -- Configured cppcheck exclude dirs and/or files: 
+[1.805s] -- Added test 'lint_cmake' to check CMake code style
+[1.809s] -- Added test 'uncrustify' to check C / C++ code style
+[1.809s] -- Configured uncrustify additional arguments: 
+[1.810s] -- Added test 'xmllint' to check XML markup files
+[1.811s] -- Configuring done
+[1.845s] -- Generating done
+[1.848s] -- Build files have been written to: /home/orin/is_ws/build/cpp_pubsub
+[1.867s] Invoked command in '/home/orin/is_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg /usr/bin/cmake /home/orin/is_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/orin/is_ws/install/cpp_pubsub
+[1.871s] Invoking command in '/home/orin/is_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg /usr/bin/cmake --build /home/orin/is_ws/build/cpp_pubsub -- -j12 -l12
+[1.971s] [  2%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DataCSV.cpp.o[0m
+[1.972s] [  6%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DataKML.cpp.o[0m
+[1.972s] [  8%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DataChunkSorted.cpp.o[0m
+[1.972s] [  8%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/hw-libs/bootloader/bootloaderShared.c.o[0m
+[1.972s] [  8%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DataJSON.cpp.o[0m
+[1.972s] [  8%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DeviceLog.cpp.o[0m
+[1.972s] [  2%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.972s] [  8%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DeviceLogCSV.cpp.o[0m
+[1.972s] [  8%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DataChunk.cpp.o[0m
+[1.975s] [ 10%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DeviceLogKML.cpp.o[0m
+[1.975s] [ 10%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DeviceLogJSON.cpp.o[0m
+[1.987s] [ 11%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DeviceLogSerial.cpp.o[0m
+[2.040s] [ 12%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DeviceLogSorted.cpp.o[0m
+[2.597s] [ 13%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISBootloaderAPP.cpp.o[0m
+[2.703s] [ 14%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISBootloaderBase.cpp.o[0m
+[3.524s] [ 15%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISBootloaderDFU.cpp.o[0m
+[3.656s] [ 16%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISBootloaderISB.cpp.o[0m
+[3.708s] [ 17%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISBootloaderSAMBA.cpp.o[0m
+[3.740s] [ 18%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISBootloaderThread.cpp.o[0m
+[3.791s] [ 19%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISClient.cpp.o[0m
+[3.820s] [ 20%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISComm.c.o[0m
+[3.837s] [ 21%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISCommDataBuffer.cpp.o[0m
+[3.932s] [ 22%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISDataMappings.cpp.o[0m
+[4.032s] [ 23%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISDisplay.cpp.o[0m
+[4.097s] [ 24%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISEarth.c.o[0m
+[4.144s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISFileManager.cpp.o[0m
+[4.257s] [ 26%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISGnss.cpp.o[0m
+[4.298s] [ 27%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISLogFile.cpp.o[0m
+[4.601s] [ 28%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISLogStats.cpp.o[0m
+[4.648s] [ 29%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISLogger.cpp.o[0m
+[4.732s] [ 30%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISMatrix.c.o[0m
+[4.950s] [ 31%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISPolynomial.c.o[0m
+[4.994s] [ 32%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISPose.c.o[0m
+[5.084s] [ 33%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISSerialPort.cpp.o[0m
+[5.105s] [ 34%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISStream.cpp.o[0m
+[5.129s] [ 35%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISTcpClient.cpp.o[0m
+[5.189s] [ 36%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISTcpServer.cpp.o[0m
+[5.630s] [ 37%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISUtilities.cpp.o[0m
+[5.716s] [ 38%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/InertialSense.cpp.o[0m
+[5.987s] [ 39%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/cltool.cpp.o[0m
+[6.016s] [ 40%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/cltool_main.cpp.o[0m
+[6.094s] [ 41%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/com_manager.c.o[0m
+[6.106s] [ 42%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/convert_ins.cpp.o[0m
+[6.284s] [ 43%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/data_sets.c.o[0m
+[6.416s] [ 44%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/filters.cpp.o[0m
+[6.461s] [ 45%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/linked_list.c.o[0m
+[6.464s] [ 46%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ihex.c.o[0m
+[6.578s] [ 47%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/message_stats.cpp.o[0m
+[6.585s] [ 48%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/protocol_nmea.cpp.o[0m
+[6.864s] [ 49%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ring_buffer.c.o[0m
+[6.907s] [ 50%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/serialPort.c.o[0m
+[6.945s] [ 51%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/serialPortPlatform.c.o[0m
+[7.047s] [ 52%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/statistics.cpp.o[0m
+[7.096s] [ 53%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/time_conversion.c.o[0m
+[7.165s] [ 54%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/tinystr.cpp.o[0m
+[7.226s] [ 55%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/tinyxmlerror.cpp.o[0m
+[7.232s] [ 56%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/tinyxml.cpp.o[0m
+[7.307s] [ 57%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/tinyxmlparser.cpp.o[0m
+[7.497s] [ 58%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/binary.cpp.o[0m
+[7.553s] [ 59%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/contrib/graphbuilder.cpp.o[0m
+[7.833s] [ 60%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/contrib/graphbuilderadapter.cpp.o[0m
+[8.155s] [ 61%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/convert.cpp.o[0m
+[8.173s] [ 62%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/depthguard.cpp.o[0m
+[8.177s] [ 63%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/directives.cpp.o[0m
+[8.190s] [ 64%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/emit.cpp.o[0m
+[8.197s] [ 65%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/emitfromevents.cpp.o[0m
+[8.302s] [ 66%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/emitter.cpp.o[0m
+[8.521s] [ 67%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/emitterstate.cpp.o[0m
+[8.696s] [ 68%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/emitterutils.cpp.o[0m
+[8.849s] [ 69%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/exceptions.cpp.o[0m
+[8.862s] [ 70%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/exp.cpp.o[0m
+[9.366s] [ 71%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/node.cpp.o[0m
+[9.371s] [ 72%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/node_data.cpp.o[0m
+[9.377s] [ 73%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/memory.cpp.o[0m
+[9.479s] [ 74%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/nodebuilder.cpp.o[0m
+[9.503s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/nodeevents.cpp.o[0m
+[9.649s] [ 76%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/null.cpp.o[0m
+[9.723s] [ 77%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/ostream_wrapper.cpp.o[0m
+[9.918s] [ 78%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/parse.cpp.o[0m
+[9.922s] [ 79%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/parser.cpp.o[0m
+[10.091s] [ 80%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/regex_yaml.cpp.o[0m
+[10.189s] [ 81%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/scanner.cpp.o[0m
+[10.239s] [ 82%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/scanscalar.cpp.o[0m
+[10.396s] [ 83%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/scantag.cpp.o[0m
+[10.590s] [ 84%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/scantoken.cpp.o[0m
+[10.661s] [ 85%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/simplekey.cpp.o[0m
+[10.879s] [ 86%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/singledocparser.cpp.o[0m
+[10.896s] [ 87%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/stream.cpp.o[0m
+[11.089s] [ 88%] [32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/tag.cpp.o[0m
+[11.103s] [ 89%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/core.c.o[0m
+[11.158s] [ 90%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/descriptor.c.o[0m
+[11.267s] [ 91%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/hotplug.c.o[0m
+[11.345s] [ 92%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/io.c.o[0m
+[11.372s] [ 93%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/os/events_posix.c.o[0m
+[11.388s] [ 94%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/os/linux_netlink.c.o[0m
+[11.414s] [ 95%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/os/linux_udev.c.o[0m
+[11.448s] [ 96%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/os/linux_usbfs.c.o[0m
+[11.566s] [ 97%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/strerror.c.o[0m
+[11.572s] [ 98%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/os/threads_posix.c.o[0m
+[11.608s] [ 99%] [32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/sync.c.o[0m
+[13.593s] [100%] [32m[1mLinking CXX executable talker[0m
+[14.379s] [100%] Built target talker
+[14.406s] Invoked command in '/home/orin/is_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg /usr/bin/cmake --build /home/orin/is_ws/build/cpp_pubsub -- -j12 -l12
+[14.881s] Invoking command in '/home/orin/is_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg /usr/bin/cmake --install /home/orin/is_ws/build/cpp_pubsub
+[14.896s] -- Install configuration: ""
+[14.897s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[14.907s] -- Set runtime path of "/home/orin/is_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[14.907s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[14.908s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[14.908s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[14.908s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[14.908s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[14.909s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[14.909s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[14.909s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[14.910s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[14.910s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[14.910s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[14.910s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[14.911s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[14.911s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[14.911s] -- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[14.916s] Invoked command in '/home/orin/is_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg /usr/bin/cmake --install /home/orin/is_ws/build/cpp_pubsub

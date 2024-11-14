@@ -1,0 +1,6 @@
+# map_server_params.yaml
+map_server:
+    ros__parameters:
+        yaml_filename: "CAMP2_2.yaml"
+        frame_id: "map"
+        use_sim_time: false

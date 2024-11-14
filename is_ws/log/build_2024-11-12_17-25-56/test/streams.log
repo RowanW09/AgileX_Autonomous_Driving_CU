@@ -1,0 +1,42 @@
+[0.019s] Invoking command in '/home/orin/is_ws/build/test': CMAKE_PREFIX_PATH=/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg /usr/bin/cmake /home/orin/is_ws/src/test -DCMAKE_INSTALL_PREFIX=/home/orin/is_ws/install/test
+[0.097s] -- The C compiler identification is GNU 11.4.0
+[0.192s] -- The CXX compiler identification is GNU 11.4.0
+[0.204s] -- Detecting C compiler ABI info
+[0.322s] -- Detecting C compiler ABI info - done
+[0.346s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.347s] -- Detecting C compile features
+[0.348s] -- Detecting C compile features - done
+[0.359s] -- Detecting CXX compiler ABI info
+[0.490s] -- Detecting CXX compiler ABI info - done
+[0.515s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.516s] -- Detecting CXX compile features
+[0.517s] -- Detecting CXX compile features - done
+[0.525s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.809s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.008s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.138s] -- Added test 'lint_cmake' to check CMake code style
+[1.140s] -- Added test 'xmllint' to check XML markup files
+[1.143s] -- Configuring done
+[1.150s] -- Generating done
+[1.152s] -- Build files have been written to: /home/orin/is_ws/build/test
+[1.163s] Invoked command in '/home/orin/is_ws/build/test' returned '0': CMAKE_PREFIX_PATH=/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg /usr/bin/cmake /home/orin/is_ws/src/test -DCMAKE_INSTALL_PREFIX=/home/orin/is_ws/install/test
+[1.166s] Invoking command in '/home/orin/is_ws/build/test': CMAKE_PREFIX_PATH=/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg /usr/bin/cmake --build /home/orin/is_ws/build/test -- -j12 -l12
+[1.238s] Invoked command in '/home/orin/is_ws/build/test' returned '0': CMAKE_PREFIX_PATH=/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg /usr/bin/cmake --build /home/orin/is_ws/build/test -- -j12 -l12
+[1.286s] Invoking command in '/home/orin/is_ws/build/test': CMAKE_PREFIX_PATH=/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg /usr/bin/cmake --install /home/orin/is_ws/build/test
+[1.301s] -- Install configuration: ""
+[1.301s] -- Installing: /home/orin/is_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[1.301s] -- Installing: /home/orin/is_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[1.302s] -- Installing: /home/orin/is_ws/install/test/share/test/environment/ament_prefix_path.sh
+[1.302s] -- Installing: /home/orin/is_ws/install/test/share/test/environment/ament_prefix_path.dsv
+[1.302s] -- Installing: /home/orin/is_ws/install/test/share/test/environment/path.sh
+[1.302s] -- Installing: /home/orin/is_ws/install/test/share/test/environment/path.dsv
+[1.303s] -- Installing: /home/orin/is_ws/install/test/share/test/local_setup.bash
+[1.303s] -- Installing: /home/orin/is_ws/install/test/share/test/local_setup.sh
+[1.303s] -- Installing: /home/orin/is_ws/install/test/share/test/local_setup.zsh
+[1.303s] -- Installing: /home/orin/is_ws/install/test/share/test/local_setup.dsv
+[1.303s] -- Installing: /home/orin/is_ws/install/test/share/test/package.dsv
+[1.304s] -- Installing: /home/orin/is_ws/install/test/share/ament_index/resource_index/packages/test
+[1.304s] -- Installing: /home/orin/is_ws/install/test/share/test/cmake/testConfig.cmake
+[1.304s] -- Installing: /home/orin/is_ws/install/test/share/test/cmake/testConfig-version.cmake
+[1.304s] -- Installing: /home/orin/is_ws/install/test/share/test/package.xml
+[1.309s] Invoked command in '/home/orin/is_ws/build/test' returned '0': CMAKE_PREFIX_PATH=/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg /usr/bin/cmake --install /home/orin/is_ws/build/test

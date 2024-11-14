@@ -1,0 +1,378 @@
+[0.000000] (-) TimerEvent: {}
+[0.000858] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001086] (test) JobQueued: {'identifier': 'test', 'dependencies': OrderedDict()}
+[0.001304] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.010907] (test) JobStarted: {'identifier': 'test'}
+[0.019742] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.020186] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/orin/is_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/orin/is_ws/install/cpp_pubsub'], 'cwd': '/home/orin/is_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('ROS_PACKAGE_PATH', '/home/orin/scout_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/scout_ws/install/scout_msgs/lib:/home/orin/lidar_ws/install/rslidar_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin/scout_ws/install:/home/orin/lidar_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/orin/scout_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/home/orin/scout_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2146,unix/jetson:/tmp/.ICE-unix/2146'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae38c1b6_974a_4ac9_ab0a_582959ca903c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/scout_ws/install/scout_base:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin/is_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/scout_ws/install/scout_msgs/local/lib/python3.10/dist-packages:/home/orin/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg')]), 'shell': False}
+[0.026834] (test) JobProgress: {'identifier': 'test', 'progress': 'cmake'}
+[0.027206] (test) Command: {'cmd': ['/usr/bin/cmake', '/home/orin/is_ws/src/test', '-DCMAKE_INSTALL_PREFIX=/home/orin/is_ws/install/test'], 'cwd': '/home/orin/is_ws/build/test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('ROS_PACKAGE_PATH', '/home/orin/scout_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/scout_ws/install/scout_msgs/lib:/home/orin/lidar_ws/install/rslidar_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin/scout_ws/install:/home/orin/lidar_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/orin/scout_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/home/orin/scout_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2146,unix/jetson:/tmp/.ICE-unix/2146'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae38c1b6_974a_4ac9_ab0a_582959ca903c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/scout_ws/install/scout_base:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin/is_ws/build/test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/scout_ws/install/scout_msgs/local/lib/python3.10/dist-packages:/home/orin/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg')]), 'shell': False}
+[0.099309] (-) TimerEvent: {}
+[0.108093] (test) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.119258] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199515] (-) TimerEvent: {}
+[0.202886] (test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.214841] (test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.216788] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.236007] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299688] (-) TimerEvent: {}
+[0.332462] (test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.357170] (test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.357923] (test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.359260] (test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.361763] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.369808] (test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.386497] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.387375] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.388710] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.399116] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399751] (-) TimerEvent: {}
+[0.500409] (test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.500856] (-) TimerEvent: {}
+[0.525561] (test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.526471] (test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.528037] (test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.529221] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.536289] (test) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.554722] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.555711] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.557350] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.565517] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600965] (-) TimerEvent: {}
+[0.701425] (-) TimerEvent: {}
+[0.801906] (-) TimerEvent: {}
+[0.819263] (test) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.854511] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.902000] (-) TimerEvent: {}
+[1.002806] (-) TimerEvent: {}
+[1.018752] (test) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.034945] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.100845] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.102837] (-) TimerEvent: {}
+[1.107166] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.117907] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.133311] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.148758] (test) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.151107] (test) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.154202] (test) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.157412] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.161183] (test) StdoutLine: {'line': b'-- Generating done\n'}
+[1.163030] (test) StdoutLine: {'line': b'-- Build files have been written to: /home/orin/is_ws/build/test\n'}
+[1.173119] (test) CommandEnded: {'returncode': 0}
+[1.174682] (test) JobProgress: {'identifier': 'test', 'progress': 'build'}
+[1.176127] (test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/is_ws/build/test', '--', '-j12', '-l12'], 'cwd': '/home/orin/is_ws/build/test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('ROS_PACKAGE_PATH', '/home/orin/scout_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/scout_ws/install/scout_msgs/lib:/home/orin/lidar_ws/install/rslidar_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin/scout_ws/install:/home/orin/lidar_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/orin/scout_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/home/orin/scout_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2146,unix/jetson:/tmp/.ICE-unix/2146'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae38c1b6_974a_4ac9_ab0a_582959ca903c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/scout_ws/install/scout_base:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin/is_ws/build/test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/scout_ws/install/scout_msgs/local/lib/python3.10/dist-packages:/home/orin/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg')]), 'shell': False}
+[1.203006] (-) TimerEvent: {}
+[1.212522] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.215762] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.243523] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.248704] (test) CommandEnded: {'returncode': 0}
+[1.254652] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.279772] (test) JobProgress: {'identifier': 'test', 'progress': 'install'}
+[1.295541] (test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin/is_ws/build/test'], 'cwd': '/home/orin/is_ws/build/test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('ROS_PACKAGE_PATH', '/home/orin/scout_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/scout_ws/install/scout_msgs/lib:/home/orin/lidar_ws/install/rslidar_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin/scout_ws/install:/home/orin/lidar_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/orin/scout_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/home/orin/scout_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2146,unix/jetson:/tmp/.ICE-unix/2146'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae38c1b6_974a_4ac9_ab0a_582959ca903c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/scout_ws/install/scout_base:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin/is_ws/build/test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/scout_ws/install/scout_msgs/local/lib/python3.10/dist-packages:/home/orin/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg')]), 'shell': False}
+[1.303119] (-) TimerEvent: {}
+[1.311498] (test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.311908] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test\n'}
+[1.312385] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test\n'}
+[1.312734] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/test/environment/ament_prefix_path.sh\n'}
+[1.312950] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/test/environment/ament_prefix_path.dsv\n'}
+[1.313354] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/test/environment/path.sh\n'}
+[1.313493] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/test/environment/path.dsv\n'}
+[1.313620] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/test/local_setup.bash\n'}
+[1.313801] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/test/local_setup.sh\n'}
+[1.314022] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/test/local_setup.zsh\n'}
+[1.314221] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/test/local_setup.dsv\n'}
+[1.314422] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/test/package.dsv\n'}
+[1.314687] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/ament_index/resource_index/packages/test\n'}
+[1.314961] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/test/cmake/testConfig.cmake\n'}
+[1.315128] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/test/cmake/testConfig-version.cmake\n'}
+[1.315323] (test) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/test/share/test/package.xml\n'}
+[1.318933] (test) CommandEnded: {'returncode': 0}
+[1.378200] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.378615] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.400308] (test) JobEnded: {'identifier': 'test', 'rc': 0}
+[1.403209] (-) TimerEvent: {}
+[1.503828] (-) TimerEvent: {}
+[1.515946] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.518784] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.604010] (-) TimerEvent: {}
+[1.631432] (cpp_pubsub) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.671452] (cpp_pubsub) StderrLine: {'line': b'\x1b[0mlinks\x1b[0m\n'}
+[1.673009] (cpp_pubsub) StderrLine: {'line': b'\x1b[0minstall\x1b[0m\n'}
+[1.673324] (cpp_pubsub) StderrLine: {'line': b'\x1b[0mbuild testing\x1b[0m\n'}
+[1.675189] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.704095] (-) TimerEvent: {}
+[1.803315] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.804099] (-) TimerEvent: {}
+[1.804468] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/orin/is_ws/src/cpp_pubsub/cpp_pubsub;/home/orin/is_ws/src/cpp_pubsub/PUBLIC\n'}
+[1.804768] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.805714] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.809934] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.810197] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.810896] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.812660] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.846412] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.848771] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/orin/is_ws/build/cpp_pubsub\n'}
+[1.867283] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.869086] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[1.869940] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/is_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/orin/is_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('ROS_PACKAGE_PATH', '/home/orin/scout_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/scout_ws/install/scout_msgs/lib:/home/orin/lidar_ws/install/rslidar_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin/scout_ws/install:/home/orin/lidar_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/orin/scout_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/home/orin/scout_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2146,unix/jetson:/tmp/.ICE-unix/2146'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae38c1b6_974a_4ac9_ab0a_582959ca903c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/scout_ws/install/scout_base:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin/is_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/scout_ws/install/scout_msgs/local/lib/python3.10/dist-packages:/home/orin/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg')]), 'shell': False}
+[1.904271] (-) TimerEvent: {}
+[1.972478] (cpp_pubsub) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DataCSV.cpp.o\x1b[0m\n'}
+[1.972976] (cpp_pubsub) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DataKML.cpp.o\x1b[0m\n'}
+[1.973214] (cpp_pubsub) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DataChunkSorted.cpp.o\x1b[0m\n'}
+[1.973343] (cpp_pubsub) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/hw-libs/bootloader/bootloaderShared.c.o\x1b[0m\n'}
+[1.973447] (cpp_pubsub) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DataJSON.cpp.o\x1b[0m\n'}
+[1.973541] (cpp_pubsub) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DeviceLog.cpp.o\x1b[0m\n'}
+[1.973632] (cpp_pubsub) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.973722] (cpp_pubsub) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DeviceLogCSV.cpp.o\x1b[0m\n'}
+[1.973808] (cpp_pubsub) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DataChunk.cpp.o\x1b[0m\n'}
+[1.975704] (cpp_pubsub) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DeviceLogKML.cpp.o\x1b[0m\n'}
+[1.976117] (cpp_pubsub) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DeviceLogJSON.cpp.o\x1b[0m\n'}
+[1.987858] (cpp_pubsub) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DeviceLogSerial.cpp.o\x1b[0m\n'}
+[2.004445] (-) TimerEvent: {}
+[2.040598] (cpp_pubsub) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/DeviceLogSorted.cpp.o\x1b[0m\n'}
+[2.104623] (-) TimerEvent: {}
+[2.205293] (-) TimerEvent: {}
+[2.305980] (-) TimerEvent: {}
+[2.406712] (-) TimerEvent: {}
+[2.507471] (-) TimerEvent: {}
+[2.598118] (cpp_pubsub) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISBootloaderAPP.cpp.o\x1b[0m\n'}
+[2.607710] (-) TimerEvent: {}
+[2.703715] (cpp_pubsub) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISBootloaderBase.cpp.o\x1b[0m\n'}
+[2.707920] (-) TimerEvent: {}
+[2.808624] (-) TimerEvent: {}
+[2.909394] (-) TimerEvent: {}
+[3.010147] (-) TimerEvent: {}
+[3.110876] (-) TimerEvent: {}
+[3.211614] (-) TimerEvent: {}
+[3.312345] (-) TimerEvent: {}
+[3.413067] (-) TimerEvent: {}
+[3.513769] (-) TimerEvent: {}
+[3.525008] (cpp_pubsub) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISBootloaderDFU.cpp.o\x1b[0m\n'}
+[3.613946] (-) TimerEvent: {}
+[3.657136] (cpp_pubsub) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISBootloaderISB.cpp.o\x1b[0m\n'}
+[3.709395] (cpp_pubsub) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISBootloaderSAMBA.cpp.o\x1b[0m\n'}
+[3.714145] (-) TimerEvent: {}
+[3.740836] (cpp_pubsub) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISBootloaderThread.cpp.o\x1b[0m\n'}
+[3.791932] (cpp_pubsub) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISClient.cpp.o\x1b[0m\n'}
+[3.814347] (-) TimerEvent: {}
+[3.820737] (cpp_pubsub) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISComm.c.o\x1b[0m\n'}
+[3.837767] (cpp_pubsub) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISCommDataBuffer.cpp.o\x1b[0m\n'}
+[3.914546] (-) TimerEvent: {}
+[3.933018] (cpp_pubsub) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISDataMappings.cpp.o\x1b[0m\n'}
+[4.014767] (-) TimerEvent: {}
+[4.033367] (cpp_pubsub) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISDisplay.cpp.o\x1b[0m\n'}
+[4.097739] (cpp_pubsub) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISEarth.c.o\x1b[0m\n'}
+[4.114944] (-) TimerEvent: {}
+[4.145455] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISFileManager.cpp.o\x1b[0m\n'}
+[4.215162] (-) TimerEvent: {}
+[4.257288] (cpp_pubsub) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISGnss.cpp.o\x1b[0m\n'}
+[4.299461] (cpp_pubsub) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISLogFile.cpp.o\x1b[0m\n'}
+[4.315369] (-) TimerEvent: {}
+[4.416312] (-) TimerEvent: {}
+[4.517034] (-) TimerEvent: {}
+[4.602273] (cpp_pubsub) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISLogStats.cpp.o\x1b[0m\n'}
+[4.617244] (-) TimerEvent: {}
+[4.648940] (cpp_pubsub) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISLogger.cpp.o\x1b[0m\n'}
+[4.717444] (-) TimerEvent: {}
+[4.732579] (cpp_pubsub) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISMatrix.c.o\x1b[0m\n'}
+[4.817663] (-) TimerEvent: {}
+[4.918372] (-) TimerEvent: {}
+[4.951031] (cpp_pubsub) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISPolynomial.c.o\x1b[0m\n'}
+[4.994894] (cpp_pubsub) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISPose.c.o\x1b[0m\n'}
+[5.018640] (-) TimerEvent: {}
+[5.085162] (cpp_pubsub) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISSerialPort.cpp.o\x1b[0m\n'}
+[5.106352] (cpp_pubsub) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISStream.cpp.o\x1b[0m\n'}
+[5.118847] (-) TimerEvent: {}
+[5.130178] (cpp_pubsub) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISTcpClient.cpp.o\x1b[0m\n'}
+[5.190040] (cpp_pubsub) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISTcpServer.cpp.o\x1b[0m\n'}
+[5.219073] (-) TimerEvent: {}
+[5.319734] (-) TimerEvent: {}
+[5.420425] (-) TimerEvent: {}
+[5.521149] (-) TimerEvent: {}
+[5.621897] (-) TimerEvent: {}
+[5.631151] (cpp_pubsub) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ISUtilities.cpp.o\x1b[0m\n'}
+[5.716752] (cpp_pubsub) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/InertialSense.cpp.o\x1b[0m\n'}
+[5.722129] (-) TimerEvent: {}
+[5.822832] (-) TimerEvent: {}
+[5.923492] (-) TimerEvent: {}
+[5.987874] (cpp_pubsub) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/cltool.cpp.o\x1b[0m\n'}
+[6.016853] (cpp_pubsub) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/cltool_main.cpp.o\x1b[0m\n'}
+[6.023713] (-) TimerEvent: {}
+[6.095144] (cpp_pubsub) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/com_manager.c.o\x1b[0m\n'}
+[6.107565] (cpp_pubsub) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/convert_ins.cpp.o\x1b[0m\n'}
+[6.123935] (-) TimerEvent: {}
+[6.224632] (-) TimerEvent: {}
+[6.285477] (cpp_pubsub) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/data_sets.c.o\x1b[0m\n'}
+[6.324847] (-) TimerEvent: {}
+[6.417140] (cpp_pubsub) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/filters.cpp.o\x1b[0m\n'}
+[6.425040] (-) TimerEvent: {}
+[6.461966] (cpp_pubsub) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/linked_list.c.o\x1b[0m\n'}
+[6.465311] (cpp_pubsub) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ihex.c.o\x1b[0m\n'}
+[6.525253] (-) TimerEvent: {}
+[6.578764] (cpp_pubsub) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/message_stats.cpp.o\x1b[0m\n'}
+[6.585836] (cpp_pubsub) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/protocol_nmea.cpp.o\x1b[0m\n'}
+[6.625454] (-) TimerEvent: {}
+[6.726172] (-) TimerEvent: {}
+[6.826933] (-) TimerEvent: {}
+[6.865445] (cpp_pubsub) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/ring_buffer.c.o\x1b[0m\n'}
+[6.908143] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/serialPort.c.o\x1b[0m\n'}
+[6.927131] (-) TimerEvent: {}
+[6.946101] (cpp_pubsub) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/serialPortPlatform.c.o\x1b[0m\n'}
+[7.027344] (-) TimerEvent: {}
+[7.048374] (cpp_pubsub) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/statistics.cpp.o\x1b[0m\n'}
+[7.097474] (cpp_pubsub) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/time_conversion.c.o\x1b[0m\n'}
+[7.127563] (-) TimerEvent: {}
+[7.165716] (cpp_pubsub) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/tinystr.cpp.o\x1b[0m\n'}
+[7.227196] (cpp_pubsub) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/tinyxmlerror.cpp.o\x1b[0m\n'}
+[7.227660] (-) TimerEvent: {}
+[7.233358] (cpp_pubsub) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/tinyxml.cpp.o\x1b[0m\n'}
+[7.308456] (cpp_pubsub) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/tinyxmlparser.cpp.o\x1b[0m\n'}
+[7.327918] (-) TimerEvent: {}
+[7.428572] (-) TimerEvent: {}
+[7.498089] (cpp_pubsub) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/binary.cpp.o\x1b[0m\n'}
+[7.528775] (-) TimerEvent: {}
+[7.553728] (cpp_pubsub) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/contrib/graphbuilder.cpp.o\x1b[0m\n'}
+[7.628979] (-) TimerEvent: {}
+[7.729723] (-) TimerEvent: {}
+[7.830452] (-) TimerEvent: {}
+[7.834164] (cpp_pubsub) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/contrib/graphbuilderadapter.cpp.o\x1b[0m\n'}
+[7.930677] (-) TimerEvent: {}
+[8.031350] (-) TimerEvent: {}
+[8.132038] (-) TimerEvent: {}
+[8.156028] (cpp_pubsub) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/convert.cpp.o\x1b[0m\n'}
+[8.173935] (cpp_pubsub) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/depthguard.cpp.o\x1b[0m\n'}
+[8.178123] (cpp_pubsub) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/directives.cpp.o\x1b[0m\n'}
+[8.190642] (cpp_pubsub) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/emit.cpp.o\x1b[0m\n'}
+[8.198113] (cpp_pubsub) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/emitfromevents.cpp.o\x1b[0m\n'}
+[8.232205] (-) TimerEvent: {}
+[8.303036] (cpp_pubsub) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/emitter.cpp.o\x1b[0m\n'}
+[8.332377] (-) TimerEvent: {}
+[8.433023] (-) TimerEvent: {}
+[8.522457] (cpp_pubsub) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/emitterstate.cpp.o\x1b[0m\n'}
+[8.533209] (-) TimerEvent: {}
+[8.640192] (-) TimerEvent: {}
+[8.696956] (cpp_pubsub) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/emitterutils.cpp.o\x1b[0m\n'}
+[8.740357] (-) TimerEvent: {}
+[8.841024] (-) TimerEvent: {}
+[8.850220] (cpp_pubsub) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/exceptions.cpp.o\x1b[0m\n'}
+[8.862906] (cpp_pubsub) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/exp.cpp.o\x1b[0m\n'}
+[8.941224] (-) TimerEvent: {}
+[9.041910] (-) TimerEvent: {}
+[9.142670] (-) TimerEvent: {}
+[9.243372] (-) TimerEvent: {}
+[9.344140] (-) TimerEvent: {}
+[9.367070] (cpp_pubsub) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/node.cpp.o\x1b[0m\n'}
+[9.372487] (cpp_pubsub) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/node_data.cpp.o\x1b[0m\n'}
+[9.377640] (cpp_pubsub) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/memory.cpp.o\x1b[0m\n'}
+[9.444312] (-) TimerEvent: {}
+[9.480529] (cpp_pubsub) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/nodebuilder.cpp.o\x1b[0m\n'}
+[9.504561] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/nodeevents.cpp.o\x1b[0m\n'}
+[9.544509] (-) TimerEvent: {}
+[9.645220] (-) TimerEvent: {}
+[9.649790] (cpp_pubsub) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/null.cpp.o\x1b[0m\n'}
+[9.723563] (cpp_pubsub) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/ostream_wrapper.cpp.o\x1b[0m\n'}
+[9.745430] (-) TimerEvent: {}
+[9.846135] (-) TimerEvent: {}
+[9.919228] (cpp_pubsub) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/parse.cpp.o\x1b[0m\n'}
+[9.923212] (cpp_pubsub) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/parser.cpp.o\x1b[0m\n'}
+[9.946332] (-) TimerEvent: {}
+[10.047012] (-) TimerEvent: {}
+[10.092158] (cpp_pubsub) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/regex_yaml.cpp.o\x1b[0m\n'}
+[10.147251] (-) TimerEvent: {}
+[10.190116] (cpp_pubsub) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/scanner.cpp.o\x1b[0m\n'}
+[10.239661] (cpp_pubsub) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/scanscalar.cpp.o\x1b[0m\n'}
+[10.247487] (-) TimerEvent: {}
+[10.348154] (-) TimerEvent: {}
+[10.396762] (cpp_pubsub) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/scantag.cpp.o\x1b[0m\n'}
+[10.448332] (-) TimerEvent: {}
+[10.549022] (-) TimerEvent: {}
+[10.590484] (cpp_pubsub) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/scantoken.cpp.o\x1b[0m\n'}
+[10.649237] (-) TimerEvent: {}
+[10.661580] (cpp_pubsub) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/simplekey.cpp.o\x1b[0m\n'}
+[10.749455] (-) TimerEvent: {}
+[10.850167] (-) TimerEvent: {}
+[10.879689] (cpp_pubsub) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/singledocparser.cpp.o\x1b[0m\n'}
+[10.897049] (cpp_pubsub) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/stream.cpp.o\x1b[0m\n'}
+[10.950367] (-) TimerEvent: {}
+[11.051031] (-) TimerEvent: {}
+[11.089781] (cpp_pubsub) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/yaml-cpp/tag.cpp.o\x1b[0m\n'}
+[11.104350] (cpp_pubsub) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/core.c.o\x1b[0m\n'}
+[11.151241] (-) TimerEvent: {}
+[11.158981] (cpp_pubsub) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/descriptor.c.o\x1b[0m\n'}
+[11.251453] (-) TimerEvent: {}
+[11.267873] (cpp_pubsub) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/hotplug.c.o\x1b[0m\n'}
+[11.345654] (cpp_pubsub) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/io.c.o\x1b[0m\n'}
+[11.351657] (-) TimerEvent: {}
+[11.373252] (cpp_pubsub) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/os/events_posix.c.o\x1b[0m\n'}
+[11.389489] (cpp_pubsub) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/os/linux_netlink.c.o\x1b[0m\n'}
+[11.414811] (cpp_pubsub) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/os/linux_udev.c.o\x1b[0m\n'}
+[11.449396] (cpp_pubsub) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/os/linux_usbfs.c.o\x1b[0m\n'}
+[11.451844] (-) TimerEvent: {}
+[11.552519] (-) TimerEvent: {}
+[11.567044] (cpp_pubsub) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/strerror.c.o\x1b[0m\n'}
+[11.572899] (cpp_pubsub) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/os/threads_posix.c.o\x1b[0m\n'}
+[11.609069] (cpp_pubsub) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/talker.dir/home/orin/inertial-sense-sdk/src/libusb/libusb/sync.c.o\x1b[0m\n'}
+[11.652698] (-) TimerEvent: {}
+[11.753361] (-) TimerEvent: {}
+[11.853951] (-) TimerEvent: {}
+[11.954466] (-) TimerEvent: {}
+[12.055018] (-) TimerEvent: {}
+[12.155611] (-) TimerEvent: {}
+[12.256149] (-) TimerEvent: {}
+[12.356782] (-) TimerEvent: {}
+[12.457399] (-) TimerEvent: {}
+[12.558007] (-) TimerEvent: {}
+[12.658624] (-) TimerEvent: {}
+[12.759225] (-) TimerEvent: {}
+[12.859827] (-) TimerEvent: {}
+[12.960434] (-) TimerEvent: {}
+[13.061010] (-) TimerEvent: {}
+[13.161578] (-) TimerEvent: {}
+[13.262375] (-) TimerEvent: {}
+[13.363170] (-) TimerEvent: {}
+[13.463951] (-) TimerEvent: {}
+[13.564756] (-) TimerEvent: {}
+[13.594269] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[13.664902] (-) TimerEvent: {}
+[13.765737] (-) TimerEvent: {}
+[13.866612] (-) TimerEvent: {}
+[13.967457] (-) TimerEvent: {}
+[14.068328] (-) TimerEvent: {}
+[14.169201] (-) TimerEvent: {}
+[14.270086] (-) TimerEvent: {}
+[14.370944] (-) TimerEvent: {}
+[14.379762] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[14.406029] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[14.471075] (-) TimerEvent: {}
+[14.571716] (-) TimerEvent: {}
+[14.672441] (-) TimerEvent: {}
+[14.772987] (-) TimerEvent: {}
+[14.873548] (-) TimerEvent: {}
+[14.879701] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[14.880215] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin/is_ws/build/cpp_pubsub'], 'cwd': '/home/orin/is_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('ROS_PACKAGE_PATH', '/home/orin/scout_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/scout_ws/install/scout_msgs/lib:/home/orin/lidar_ws/install/rslidar_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/orin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin/scout_ws/install:/home/orin/lidar_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/orin/scout_ws/install/ugv_sdk/lib/aarch64-linux-gnu/pkgconfig:/home/orin/scout_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/2146,unix/jetson:/tmp/.ICE-unix/2146'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae38c1b6_974a_4ac9_ab0a_582959ca903c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/scout_ws/install/scout_base:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin/is_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/scout_ws/install/scout_msgs/local/lib/python3.10/dist-packages:/home/orin/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/orin/scout_ws/install/scout_base:/opt/ros/humble:/home/orin/scout_ws/install/ugv_sdk:/home/orin/scout_ws/install/scout_msgs:/home/orin/scout_ws/install/scout_description:/home/orin/lidar_ws/install/rslidar_sdk:/home/orin/lidar_ws/install/rslidar_msg')]), 'shell': False}
+[14.897241] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.898205] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[14.907775] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/is_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[14.908386] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[14.908753] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[14.909089] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[14.909402] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[14.909678] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[14.909913] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[14.910218] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[14.910482] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[14.910743] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[14.910998] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[14.911249] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[14.911553] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[14.911807] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[14.912036] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[14.912249] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/orin/is_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[14.915582] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[14.973659] (-) TimerEvent: {}
+[15.074237] (-) TimerEvent: {}
+[15.174927] (-) TimerEvent: {}
+[15.275603] (-) TimerEvent: {}
+[15.376259] (-) TimerEvent: {}
+[15.431877] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[15.434201] (-) EventReactorShutdown: {}
